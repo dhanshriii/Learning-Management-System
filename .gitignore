@@ -1,0 +1,45 @@
+# Ignore the XAMPP directory
+/XAMPP/
+
+# Ignore node_modules directory (if you're using Node.js)
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore build output directories (commonly used in many projects)
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore environment files (if you use .env files for secret keys)
+.env
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore database and backup files (if relevant)
+*.sql
+*.bak
+*.db
+
+# Ignore coverage reports
+coverage/
+
+# Ignore other system backup or configuration files
+*.bak
+*.swp
+
+# Ignore temporary files created by text editors or operating systems
+*~
